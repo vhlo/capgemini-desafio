@@ -8,6 +8,6 @@ escolha o desáfio
 logo ápos a escolha do desáfio siga as instruições de cada desafio abaixo:
 
 Questão1:
-abra o código da questão 1
-execute o código pelo terminal ou pelo botão verde que fica na classe
+<p>abra o código da questão 1<p>
+<p>execute o código pelo terminal ou pelo botão verde que fica na classe<p>
 

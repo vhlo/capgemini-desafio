@@ -22,7 +22,7 @@ public class questao2 {
     }
 
     //<TIPÒ DE VISIBILIDADE> <TIPO DE RETORNO>
-    public static boolean validaTamanho(String senha) {
+    public static boolean validaTamanho(String senha) {//método para validar o tamanho da senha
         if (senha.length() < 6) {
             System.out.println("Tamanho da senha invalida, Faltam " + (6 - senha.length()) + " Caracteres");
             return false;
@@ -31,7 +31,7 @@ public class questao2 {
         return true;
     }
 
-    public static boolean umDigito(String senha) {
+    public static boolean umDigito(String senha) {//metódo para checar se a senha tem um digito
         Matcher m1 = Pattern.compile("(?=.*[0-9])").matcher(senha);
         if (!m1.find()) {
             System.out.println("A senha precisa ter um digito ao menos");
@@ -41,7 +41,7 @@ public class questao2 {
     }
 
 
-    public static boolean letraMai(String senha) {
+    public static boolean letraMai(String senha) {//metódo para checar se a senha  tem uma letra maiuscula
         Matcher m3 = Pattern.compile("(?=.*[A-Z])").matcher(senha);
         if (!m3.find()) {
             System.out.println("A senha precisa ter um caractere maiusculo");
@@ -50,7 +50,7 @@ public class questao2 {
         return true;
     }
 
-    public static boolean letraMin(String senha) {
+    public static boolean letraMin(String senha) {//metódo para checar se a senha tem letra minuscula
         Matcher m2 = Pattern.compile("(?=.*[a-z])").matcher(senha);
         if (!m2.find()) {
             System.out.println("A senha precisa ter um caractere minusculo");
@@ -59,7 +59,7 @@ public class questao2 {
         return true;
     }
 
-    public static boolean carEsp(String senha) {
+    public static boolean carEsp(String senha) {//metódo para checar se a senha char especial
         Matcher m4 = Pattern.compile("(?=.*[!@#$%^&*()-+])").matcher(senha);
         if (!m4.find()) {
             System.out.println("A senha precisa ter no minimo um caractere especial");

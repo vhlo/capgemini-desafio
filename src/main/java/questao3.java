@@ -14,7 +14,7 @@ public class questao3 {
 
     }
 
-    public static int validaAnagrama(String palavra){
+    public static int validaAnagrama(String palavra){// função criada para validar anagrama no teste e para resolução do exercicio
         HashMap<String, Integer> map = new HashMap<>();
         int count = 0;
 

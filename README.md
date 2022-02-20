@@ -2,10 +2,10 @@
 
 **_Passo a passo da execução dos códigos:_**
 
-Primeiramente faça o clone do repositório.
-em seguida entre na pasta onde contém os desafios.
-escolha o desáfio
-logo ápos a escolha do desáfio siga as instruições de cada desafio abaixo:
+<p>Primeiramente faça o clone do repositório.<p>
+<p>em seguida entre na pasta onde contém os desafios.<p>
+<p>escolha o desáfio<p>
+<p>logo ápos a escolha do desáfio siga as instruições de cada desafio abaixo:<p>
 
 **_Questão1:_**
 <p>Abra o código da questão 1<p>

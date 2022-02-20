@@ -1,6 +1,6 @@
 # capgemini-desafio
 
-Passo a passo da execução do código:
+**_Passo a passo da execução do código:_**
 
 Primeiramente faça o clone do repositório.
 em seguida entre na pasta onde contém os desafios.
